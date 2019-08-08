@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int x,p,i,inr=0;;
+printf("enter amount of the coffee");
+scanf("%d",&x);
+printf("enter the discount");
+scanf("%d",&p);
+if(x>0)
+{
+x=x-getIntegerValue((p/100)*x);
+inr=inr+1;
+}
+printf("the number inr=:",inr);
+return 0;
+}
+
+
